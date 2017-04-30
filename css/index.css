@@ -1,0 +1,266 @@
+/*==========================================================================
+   Top Style
+========================================================================== */
+.top-wrapper{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.top-bg{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://placehold.jp/1200x600.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+ul.sub-nav{
+    margin: 0;
+    padding: 0;
+    font-size:0;
+}
+ul.sub-nav li{
+    display: inline-block;
+    margin: 0px;
+    width: 25%;
+    padding: 20px 0px 20px;
+    font-size: 16px; 
+    text-align: center;
+    border-top: 1px solid #9c9c90;
+    border-right: 1px solid #9c9c90;
+}
+ul.sub-nav li:hover{
+    background-color: #F2F2F1;
+}
+/*==========================================================================
+   NEWS Style
+========================================================================== */
+.news-wrapper{
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 80%;
+    min-width: 1200px;
+}
+.news-heading-wrapper{
+    width: 30%;
+    display: block;
+    float: left;
+    height: 230px;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: bottom;
+    border-right: 1px solid #848474;
+    color: #848474;
+}
+.news-heading{
+    line-height: 230px;
+    vertical-align: middle;
+}
+.news-lists{
+    width: 70%;
+    display: block;
+    float: right;
+    height: 230px;
+}
+.news-lists li{
+    margin-bottom: 10px;
+}
+.category{
+    margin-right: 30px;
+    color: #848474;
+}
+.datetime{
+    margin-right: 20px;
+}
+.news-title{
+     color: #848474;
+}
+/*==========================================================================
+   Intoroduction section
+========================================================================== */
+.intro-wrapper{
+    margin-bottom: 60px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #848474;
+}
+.intro-bg{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://placehold.jp/1200x500.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 80px;
+}
+.intro-contents{
+    width: 90%;
+    min-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro-content{
+    width: 25%;
+    min-width: 315px;
+    margin-right: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.intro-content img{
+    width: 100%;
+}
+.news-contents-title{
+    display: block;
+    margin: 20px 0px;
+}
+/*==========================================================================
+   Case Study section
+========================================================================== */
+.case-study-wrapper{
+    padding-bottom: 60px;
+    text-align: center;
+}
+.case-study-heading{
+    margin-bottom: 30px;
+}
+.case-study-heading h3{
+    margin: 0;
+}
+.case-study-contents{
+    width: 90%;
+    min-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.case-study-content{
+    width: 25%;
+    min-width: 315px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.case-study-caontent img{
+    width: 100%;
+}
+.case-study-title{
+    display: block;
+    margin: 10px 0px 20px;
+}
+.case-study-button{
+    display: inline-block;
+    text-decoration: none;
+    height:45px;
+    width: 180px;
+    line-height: 45px;
+    text-align: center;
+    color: #848474;
+    border:solid 1px #848474;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+.case-study-button:hover{
+  background: #848474;
+  color: #fff;
+}
+/*==========================================================================
+   company Style
+========================================================================== */
+.company-wrapper{
+    margin-bottom: 90px;
+}
+.company-bg{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://placehold.jp/1200x500.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.company-content{
+    width: 25%;
+    min-width: 500px;
+    padding-top: 100px;
+    margin: 0px auto;
+}
+.company-button{
+    display: inline-block;
+    text-decoration: none;
+    height:45px;
+    width: 180px;
+    line-height: 45px;
+    text-align: center;
+    color: #848474;
+    border:solid 1px #848474;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+
+}
+.company-button:hover{
+  background: #848474;
+  color: #fff;
+}
+/*==========================================================================
+   Contact Style
+========================================================================== */
+.contact-wrapper{
+    margin-bottom: 50px;
+    padding-bottom: 90px;
+}
+.contact-button{
+    display: inline-block;
+    text-decoration: none;
+    height:45px;
+    width: 200px;
+    line-height: 45px;
+    text-align: center;
+    color: #848474;
+    border:solid 1px #848474;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+.contact-button:hover{
+  background: #848474;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

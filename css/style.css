@@ -1,0 +1,225 @@
+/*      Style For News/index.html       */
+.n-news-heading-right {
+   margin-bottom: 20px;
+}
+h2.n-news-heading{
+	float: left;
+}
+ul.news-tabs{
+   margin: 0;
+   padding: 0;
+   font-size: 0px;
+}
+.news-tabs li{
+	display: inline-block;
+	margin: 0;
+	padding: 10px 50px;
+	border-top: 1px solid #222;
+	border-left: 1px solid #222;
+    font-size: 16px;
+}
+.news-tabs li:last-child{
+    border-right: 1px solid #222;
+}
+.news-content{
+	padding: 30px 0px 20px 40px;
+	border-bottom: 1px dotted #222;
+	text-align: center;
+}
+.news-content:last-child{
+	margin-bottom: 40px;
+}
+.news-content-img{
+	float: left;
+}
+.news-content-img img{
+	border-radius: 100px;
+} 
+.category,.datetime,.news-title{
+	float: left;
+}
+.news-content-txt{
+	width: 600px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+/*      Style For News/category/[personal-article].html      */
+.news-article{
+	background-color: gray;
+	text-align: center;
+}
+.news-right{
+	margin-bottom: 40px;
+}
+.news-detail-button{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 20px;
+    height:45px;
+    width: 180px;
+    line-height: 45px;
+    text-align: center;
+    color: #848474;
+    border:solid 1px #848474;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+.news-detail-button:hover{
+  background: #848474;
+  color: #fff;
+}
+
+
+/*      Style For Casestudy/index.html      */
+.case-study-top{
+	width: 100%;
+}
+.case-study-top-left{
+	float: left;
+}
+.case-study-list-heading{
+	float: left;
+}
+h2.case-study-list-heading{
+	margin-bottom: 0px;
+}
+.caseStudy-content{
+	width: 25%;
+	max-width: 312px;
+	min-width: 312px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.caseStudy-txt-wrapper{
+	padding-top: 10px;
+}
+.caseStudy-title{
+	float: left;
+}
+.caseStudy-area{
+	float: left;
+}
+.caseStudy-money{
+	float: left;
+}
+.casestudy-breadcrumb{
+	float: left;
+}
+ul.casestudy-breadcrumb{
+	width: 35%;
+	margin: 0;
+	padding: 0px 0px 0px 40px;
+	font-size: 0px;
+}
+.casestudy-breadcrumb li{
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 6px;
+}
+
+/*      Style For Casestudy/detail/index.html      */
+.case-embedded-wrapper{
+	display: inline-block;
+	width: 45%;
+	margin-right: 50px;
+	padding-top: 10px;
+	height: 500px;
+	vertical-align:top;
+	text-align: center;
+    border: 1px solid #222;	
+}
+.case-info-wrapper{
+	display: inline-block;
+    width: 45%;
+    height: 500px;
+}
+.case-embedded{
+	width: 90%;
+	height: 450px;
+	margin: 0 auto;
+	border: 1px solid #222;	
+}
+.case-info-head{
+	margin-bottom: 72px;
+	padding: 10px 0px 0px 10px;
+}
+.case-info-title{
+	display: block;
+}
+.case-info-area{
+   display: block;	
+}
+.case-info-fee{
+   display: block;	
+}
+.case-info-comment-wrapper{
+	width: 90%;
+	height: 300px;
+	display: block;
+}
+table.case-info-comment{
+	border: 1px solid #222;
+}
+.case-info-comment tr{
+	border: 1px solid #222;
+	text-align: left;
+}
+.case-info-comment th{
+	padding: 2px;
+}
+.case-info-comment td{
+	height: 270px;
+	padding: 2px;
+	vertical-align: top;
+}
+.case-study-list-button-wrapper{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+    text-align: center;
+}
+.case-study-list-button{
+    display: inline-block;
+    text-decoration: none;
+    height:45px;
+    width: 180px;
+    line-height: 45px;
+    text-align: center;
+    color: #848474;
+    border:solid 1px #848474;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+.case-study-list-button:hover{
+  background: #848474;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
