@@ -7,7 +7,10 @@
 }
 .top-bg{
     width: 100%;
+    max-width: 1900px;
+    min-width: 1000px;
     height: 600px;
+    margin: 0 auto;
     background-image: url(https://placehold.jp/1200x600.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,10 +26,13 @@ ul.sub-nav li{
     margin: 0px;
     width: 25%;
     padding: 20px 0px 20px;
-    font-size: 16px; 
+    font-size: 20px; 
     text-align: center;
     border-top: 1px solid #9c9c90;
     border-right: 1px solid #9c9c90;
+}
+ul.sub-nav li a{
+    color: #848474;
 }
 ul.sub-nav li:hover{
     background-color: #F2F2F1;
@@ -46,14 +52,14 @@ ul.sub-nav li:hover{
     float: left;
     height: 230px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     vertical-align: bottom;
     border-right: 1px solid #848474;
-    color: #848474;
 }
 .news-heading{
     line-height: 230px;
     vertical-align: middle;
+    color: #848474;
 }
 .news-lists{
     width: 70%;
@@ -66,30 +72,28 @@ ul.sub-nav li:hover{
 }
 .category{
     margin-right: 30px;
-    color: #848474;
 }
 .datetime{
     margin-right: 20px;
-}
-.news-title{
-     color: #848474;
 }
 /*==========================================================================
    Intoroduction section
 ========================================================================== */
 .intro-wrapper{
     margin-bottom: 60px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
     border-bottom: 1px solid #848474;
 }
 .intro-bg{
     width: 100%;
+    max-width: 1900px;
     height: 500px;
+    margin: 0 auto;
     background-image: url(https://placehold.jp/1200x500.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .intro-contents{
     width: 90%;
@@ -99,6 +103,7 @@ ul.sub-nav li:hover{
 }
 .intro-content{
     width: 25%;
+    max-width: 400px;
     min-width: 315px;
     margin-right: 20px;
     display: inline-block;
@@ -109,7 +114,8 @@ ul.sub-nav li:hover{
 }
 .news-contents-title{
     display: block;
-    margin: 20px 0px;
+    margin: 28px 0px;
+    font-size: 30px;
 }
 /*==========================================================================
    Case Study section
@@ -123,6 +129,7 @@ ul.sub-nav li:hover{
 }
 .case-study-heading h3{
     margin: 0;
+    font-size: 30px;  
 }
 .case-study-contents{
     width: 90%;
@@ -132,6 +139,7 @@ ul.sub-nav li:hover{
 }
 .case-study-content{
     width: 25%;
+    max-width: 3500px;
     min-width: 315px;
     margin-right: 20px;
     margin-bottom: 30px;
@@ -172,7 +180,9 @@ ul.sub-nav li:hover{
 }
 .company-bg{
     width: 100%;
+    max-width: 1900px;
     height: 500px;
+    margin: 0 auto;
     background-image: url(https://placehold.jp/1200x500.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -184,6 +194,9 @@ ul.sub-nav li:hover{
     min-width: 500px;
     padding-top: 100px;
     margin: 0px auto;
+}
+.company-content h3{
+    font-size: 30px;
 }
 .company-button{
     display: inline-block;
@@ -210,7 +223,7 @@ ul.sub-nav li:hover{
 ========================================================================== */
 .contact-wrapper{
     margin-bottom: 50px;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 .contact-button{
     display: inline-block;
@@ -226,6 +239,9 @@ ul.sub-nav li:hover{
     -o-transition: 0.3s;
     -ms-transition: 0.3s;
     transition: 0.3s;
+}
+.contact-content h3{
+    font-size: 30px;
 }
 .contact-button:hover{
   background: #848474;

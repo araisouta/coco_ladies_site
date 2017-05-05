@@ -45,9 +45,25 @@ ul.news-tabs{
 }
 
 /*      Style For News/category/[personal-article].html      */
+.news-top{
+	width: 100%;
+}
+.news-top-left{
+	float: left;
+}
+.news-list-heading{
+	float: left;
+}
+h2.news-list-heading{
+	margin-bottom: 0px;
+	font-size: 30px;
+}
 .news-article{
 	background-color: gray;
 	text-align: center;
+}
+.news-content{
+	margin-bottom: 40px;
 }
 .news-right{
 	margin-bottom: 40px;
@@ -86,6 +102,11 @@ ul.news-tabs{
 }
 h2.case-study-list-heading{
 	margin-bottom: 0px;
+	font-size: 30px;
+}
+.caseStudy-contents{
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
 .caseStudy-content{
 	width: 25%;
@@ -123,6 +144,9 @@ ul.casestudy-breadcrumb{
 }
 
 /*      Style For Casestudy/detail/index.html      */
+h2.case-study-list-heading{
+	font-size: 30px;
+}
 .case-embedded-wrapper{
 	display: inline-block;
 	width: 45%;
@@ -130,8 +154,7 @@ ul.casestudy-breadcrumb{
 	padding-top: 10px;
 	height: 500px;
 	vertical-align:top;
-	text-align: center;
-    border: 1px solid #222;	
+	text-align: center;	
 }
 .case-info-wrapper{
 	display: inline-block;
@@ -163,10 +186,10 @@ ul.casestudy-breadcrumb{
 	display: block;
 }
 table.case-info-comment{
-	border: 1px solid #222;
+	border: 1px solid #848474;
 }
 .case-info-comment tr{
-	border: 1px solid #222;
+	border: 1px solid #848474;
 	text-align: left;
 }
 .case-info-comment th{
@@ -176,6 +199,7 @@ table.case-info-comment{
 	height: 270px;
 	padding: 2px;
 	vertical-align: top;
+	border: 1px solid #848474;
 }
 .case-study-list-button-wrapper{
 	width: 100%;
@@ -203,22 +227,165 @@ table.case-info-comment{
   color: #fff;
 }
 
+/*      Style For Service/index.html      */
+.service-introduce-top-bg{
+	width: 100%;
+	max-width: 1900px;
+	margin: 0 auto;
+	height: 500px;
+	background-image: url(https://placehold.jp/1200x500.png);
+	background-position: center, center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.service-introduce-heading-wrapper{
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.service-introduce-heading{
+   width: 60%;
+   margin: 0 auto;
+}
+.service-introduce-features-wrapper{
+	padding: 50px 0px;
+}
+h2.service-introduce-features-heading{
+	margin-bottom: 60px;
+}
+.service-introduce-feature{
+	width: 25%;
+	min-width: 315px;
+    margin-right: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.service-introduce-feature-img{
+	margin-bottom: 20px;
+}
+.ervice-introduce-feature-title{
+	font-size: 20px;
+}
+.service-lists-wrapper{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.service-list-wrapper{
+	width: 25%;
+	display: inline-block;
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	min-width: 315px;
+	border: 1px solid #222;
+}
+.service-list{
+	width: 95%;
+	margin: 0 auto;
+	text-align: left;
+}
+.service-list-subtitle-wrapper{
+    margin-bottom: 35px;	
+}
+.service-list-subtitle{
+	display: block;
+}
+.service-tag{
+	border: 1px solid #222;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*      Style For Company/index.html      */
+.interview-staff-info-wrapper{
+	padding-top: 40px;
+    padding-bottom: 40px;
+	max-width: 960px;
+	min-width: 960px;
+}
+.company-profile-top-bg{
+	width: 100%;
+	max-width: 1900px;
+	margin: 0 auto;
+	height: 500px;
+	background-image: url(https://placehold.jp/1200x500.png);
+	background-position: center, center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.company-profile-top-heading-wrapper{
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.company-profile-top-heading{
+   width: 60%;
+   margin: 0 auto;
+}
+.company-profile-heading{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #848474;
+}
+.company-profile-heading h1{
+	 float: left;
+}
+table.company-profile-table{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.company-profile-table th,td{
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+.company-profile-table th{
+	width: 30%;
+	background-color: #f4f4f4;
+}
+.company-profile-table td{
+	width: 70%;
+}
+/*      Style For Interview/index.html      */
+.interview-staff-info-wrapper{
+	margin: 0 auto;
+}
+h2.case-study-list-heading{
+	font-size: 30px;
+}
+.interview-staff-img{
+	width: 25%;
+	height: 300px;
+	margin-right: 5px;
+	display: inline-flex;
+}
+.interview-staff-intro-wrapper{
+	width: 60%;
+	height: 300px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	text-align: left;
+	vertical-align: top;
+}
+.interview-staff-name{
+	display: inline-flex;
+	width: 100%;
+	font-size: 26px;
+}
+.interview-staff-name p{
+	margin: 20px 0px 20px 0px;
+	padding: 0;
+}
+.interview-staff-intro{
+	display: inline-flex;
+}
+.interview-staff-intro p{
+	margin: 0;
+	padding: 0;
+}
+.interview-staff-comment{
+	width: 85%;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 1px solid #848474;
+}
 
 
 
